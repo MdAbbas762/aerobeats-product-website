@@ -97,9 +97,7 @@ Although the project already provides a complete and interactive single-page exp
 
 1. ![Screenshot 1](./screenshots/SPW_1.PNG)  
 2. ![Screenshot 2](./screenshots/SPW_2.PNG)  
-3. ![Screenshot 3](./screenshots/SPW_3.PNG)  
-4. ![Screenshot 4](./screenshots/SPW_4.PNG)  
-5. ![Screenshot 5](./screenshots/SPW_5.PNG)  
+3. ![Screenshot 3](./screenshots/SPW_3.PNG)
 6. ![Screenshot 6](./screenshots/SPW_6.PNG)  
 7. ![Screenshot 7](./screenshots/SPW_7.PNG)  
 8. ![Screenshot 8](./screenshots/SPW_8.PNG)  
