@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/brand-logo.jpg" type="image/jpg" />
+    <title>AeroBeats - Premium Wireless Headphones</title>
+</head>
+
+<body>
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo" tabindex="0">AeroBeats</div>
+
+            <ul class="nav-links" id="navLinks" role="menu">
+                <li><a href="#home" data-target="home">Home</a></li>
+                <li><a href="#features" data-target="features">Features</a></li>
+                <li><a href="#gallery" data-target="gallery">Gallery</a></li>
+                <li><a href="#reviews" data-target="reviews">Reviews</a></li>
+                <li><a href="#pricing" data-target="pricing">Pricing</a></li>
+                <li><a href="#contact" data-target="contact">Contact</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger" aria-hidden="false" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+        <div class="hero-content container">
+            <div class="hero-left">
+                <h1 id="hero-heading">Feel the<br />Future of Sound</h1>
+                <div class="tagline">Cut the cord. Hear the difference.</div>
+                <div class="subtitle" id="typewriter" aria-live="polite"></div>
+                <a href="#pricing" class="cta-button">Get Yours Now</a>
+            </div>
+
+            <div class="hero-right">
+                <div class="product-image" aria-hidden="true">
+                    <img src="asset/headphone.png" alt="Wireless AeroBeats Headphones">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Amazing Features</h2>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🔊</div>
+                    <h3>Hi-Fi Audio</h3>
+                    <p>Custom-tuned drivers deliver detailed mids and controlled bass for studio-grade listening.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🎧</div>
+                    <h3>Active Noise Canceling</h3>
+                    <p>Adaptive ANC learns and reduces background noise while keeping voices crystal clear.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🔋</div>
+                    <h3>All-Day Battery</h3>
+                    <p>Up to 40 hours of playback and rapid charging — 5 hours in 10 minutes.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">⚡</div>
+                    <h3>Low-Latency Mode</h3>
+                    <p>Perfect for gaming and streaming with sync that keeps action and audio aligned.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🧭</div>
+                    <h3>Multipoint Pairing</h3>
+                    <p>Seamlessly connect and switch between phone, laptop, and tablet — no fuss.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon" aria-hidden="true">🛠️</div>
+                    <h3>Durable Comfort</h3>
+                    <p>Lightweight alloy frame, breathable memory-foam cushions and splash resistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Product Gallery</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image-container">
+                        <div class="gallery-caption">Premium Design</div>
+                        <div class="gallery-overlay">
+                            <img src="asset/style.png" alt="Design of headphone" class="res-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image-container">
+                        <div class="gallery-caption">Portable Case</div>
+                        <div class="gallery-overlay">
+                            <img src="asset/case.png" alt="Headphone case" class="res-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image-container">
+                        <div class="gallery-caption">Advance Controls</div>
+                        <div class="gallery-overlay">
+                            <img src="asset/controls.png" alt="Closeup of headphone controls">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image-container">
+                        <div class="gallery-caption">Multi Color</div>
+                        <div class="gallery-overlay">
+                            <img src="asset/headphone-color.png" alt="Different color of headphone">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+
+            <!-- reviews track for infinite horizontal scroll -->
+            <div class="reviews-track">
+                <div class="reviews-inner" id="reviewsInner">
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Absolutely stunning sound and comfort. ANC works flawlessly on flights."</p>
+                        <div class="review-author">- Bilal Waheed</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Super comfortable for long hours, and the battery lasts way longer than expected."</p>
+                        <div class="review-author">- Hamza Ali</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★</div>
+                        <p>"Noise cancellation is excellent, though I wish the case was a bit smaller. Still worth it!"
+                        </p>
+                        <div class="review-author">- Areeba Khan</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Charges fast, looks premium, and feels light on the head. Perfect for daily use."</p>
+                        <div class="review-author">- Muhammad Abbas</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★★</div>
+                        <p>"Battery life lasts me a full day of mixing and calls, truly incredible for the price."</p>
+                        <div class="review-author">- Hania Ahmed</div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-stars">★★★★</div>
+                        <p>""Very stylish and durable. A little tight at first but adjusts well after some use."</p>
+                        <div class="review-author">- Hassan Rizwan</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Standard</h3>
+                    <div class="price">$199</div>
+                    <ul class="price-features">
+                        <li>Premium Audio Quality</li>
+                        <li>30H Battery Life</li>
+                        <li>Bluetooth 5.0</li>
+                        <li>1 Year Warranty</li>
+                    </ul>
+                    <a href="#" class="cta-button">Order Now</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$299</div>
+                    <ul class="price-features">
+                        <li>Hi-Fi Audio Quality</li>
+                        <li>40H Battery Life</li>
+                        <li>Active Noise Canceling</li>
+                        <li>Wireless Charging</li>
+                        <li>2 Year Warranty</li>
+                    </ul>
+                    <a href="#" class="cta-button">Order Now</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Premium</h3>
+                    <div class="price">$399</div>
+                    <ul class="price-features">
+                        <li>Studio-Grade Audio</li>
+                        <li>50H Battery Life</li>
+                        <li>Advanced ANC</li>
+                        <li>Premium Materials</li>
+                        <li>Lifetime Warranty</li>
+                    </ul>
+                    <a href="#" class="cta-button">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have questions? We'd love to hear from you.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <div>hello@aerobeats.com</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <div>+92 123 4567543</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Location</strong>
+                            <div>Islamabad, PK</div>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <strong>Business Hours</strong>
+                            <div>Mon–Fri: 9am–6pm PST</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" aria-labelledby="contact-form">
+                    <form id="contactForm">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us how we can help..."
+                            required></textarea>
+
+                        <button class="submit-btn" id="submitContact">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="brand">AeroBeats</div>
+
+                    <div class="socials" aria-label="Social links">
+                        <a href="#" aria-label="Twitter">T</a>
+                        <a href="#" aria-label="Instagram">I</a>
+                        <a href="#" aria-label="Facebook">F</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-heading">Quick Links</div>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#features">Features</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#pricing">Pricing</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-heading">Support</div>
+                    <div class="footer-links">
+                        <a href="#">Help Center</a>
+                        <a href="#">Warranty & Returns</a>
+                        <a href="#">Shipping</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-heading">Contact</div>
+                    <div class="footer-links">
+                        <div>hello@aerobeats.com</div>
+                        <div>+92 123 4567543</div>
+                        <div>Islamabad, PK</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">© 2025 AeroBeats. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
