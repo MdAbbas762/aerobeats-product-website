@@ -96,16 +96,33 @@ Although the project already provides a complete and interactive single-page exp
 ## 📸 Screenshots / Previews
 
 1. ![Screenshot 1](./screenshots/SPW_1.PNG)  
+
 2. ![Screenshot 2](./screenshots/SPW_2.PNG)  
+
 3. ![Screenshot 3](./screenshots/SPW_3.PNG)
+
+4. ![Screenshot 4](./screenshots/SPW_4.png)
+
+5. ![Screenshot 5](./screenshots/SPW_5.png)
+
 6. ![Screenshot 6](./screenshots/SPW_6.PNG)  
+
 7. ![Screenshot 7](./screenshots/SPW_7.PNG)  
+
 8. ![Screenshot 8](./screenshots/SPW_8.PNG)  
+
 9. ![Screenshot 9](./screenshots/SPW_9.PNG)  
-10. ![Screenshot 9](./screenshots/SPW_10.PNG)  
-11. ![Screenshot 9](./screenshots/SPW_11.PNG)  
-12. ![Screenshot 9](./screenshots/SPW_12.PNG)  
-13. ![Screenshot 9](./screenshots/SPW_13.PNG)  
-14. ![Screenshot 9](./screenshots/SPW_14.PNG)  
-15. ![Screenshot 9](./screenshots/SPW_15.PNG)  
-16. ![Screenshot 9](./screenshots/SPW_16.PNG)  
+
+10. ![Screenshot 10](./screenshots/SPW_10.PNG)  
+
+11. ![Screenshot 11](./screenshots/SPW_11.PNG)  
+
+12. ![Screenshot 12](./screenshots/SPW_12.PNG)  
+
+13. ![Screenshot 13](./screenshots/SPW_13.PNG)  
+
+14. ![Screenshot 14](./screenshots/SPW_14.PNG)  
+
+15. ![Screenshot 15](./screenshots/SPW_15.PNG)  
+
+16. ![Screenshot 16](./screenshots/SPW_16.PNG)   
